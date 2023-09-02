@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+        {% block content %}
+        <div class="reselt">
+            <h1>
+                {{res}}
+            </h1>
+        </div>
+        <div class="input_form" >
+            <a href="/find"><input type="submit" value="Back"></a>
+        </div>
+        {% endblock %}
+    </body>
+</html>

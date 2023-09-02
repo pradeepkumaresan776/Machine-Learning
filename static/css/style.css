@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(209, 209, 209);
+}
+h1{
+    color: rgb(33, 66, 66);
+    text-align: center;
+    margin-top: 100px;
+}
+.input_form{
+    text-align: center;
+    margin-top: 50px;
+}
+.input_form input{
+    border: none;
+    transition: 0.5s;
+    width: 200px;
+    height: 30px;
+    margin: 10px 0px;
+} 
+.input_form a input{
+    width: 160px;
+    height: 40px;
+    border: none;
+}
+.input_form input:hover{
+    box-shadow: 0px 0px 20px black, 0px 0px 20px rgb(17, 55, 126);
+}
+.input_form a input:hover{
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgb(42, 184, 89), 0px 0px 50px rgb(75, 168, 111);
+    background-color: rgb(58, 170, 30);
+   
+}
+.reselt{
+    text-align: center;
+}
